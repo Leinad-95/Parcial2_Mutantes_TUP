@@ -137,10 +137,10 @@ Se propone el desarrollo de las siguientes instrucciones mediante el uso de un r
     ADN Ingresado:
     A   T   G   C   G   A
     C   A   G   T   G   C
-    T   T	A	T	T	T
-    A	G	A	C	G	G
-    G	C	G	T	C	A
-    T	C	A	C	T	G
+    T   T   A   T   T   T
+    A   G   A   C   G   G
+    G   C   G   T   C   A
+    T   C   A   C   T   G
 
     HUMANO NORMAL
 
