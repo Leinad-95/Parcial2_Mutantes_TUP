@@ -6,7 +6,7 @@
 ## Sobre el Proyecto
 Se necesita identificar por medio de una secuencia de ADN de 6x6 si un humano es Mutante o no. Teniendo en cuenta que:
 - Cada secuencia contiene 6 Bases Nitrogenadas que pueden ser A, T, C o G.
-- Los casos mutantes son aquellos que presentan **MAS DE DOS SECUNCIAS** de cuatro letras iguales, de forma oblicua, horizontal o vertical.
+- Los casos mutantes son aquellos que presentan **MAS DE UNA SECUNCIA** de cuatro letras iguales, de forma oblicua, horizontal o vertical.
 
 ## Como lo resolvimos
 Se propone el desarrollo de las siguientes instrucciones mediante el uso de un rústico Menu Principal

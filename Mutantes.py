@@ -33,7 +33,7 @@ def isMutant(dna):
             if (dna[fil][col]==dna[fil][col+1]==dna[fil][col+2]==dna[fil][col+3]):
                 coincidencia = coincidencia+1
                 break
-    if coincidencia>2:
+    if coincidencia>1:
         return True
     #Recorremos las columnas, verificamos coincidencias y tambien rompemos el bucle de la misma forma que el anterior 
     for fil in range(3):
@@ -41,7 +41,7 @@ def isMutant(dna):
             if (dna[fil][col]==dna[fil+1][col]==dna[fil+2][col]==dna[fil+3][col]):
                 coincidencia = coincidencia+1
                 break
-    if coincidencia>2:
+    if coincidencia>1:
         return True
 
     #Recorremos y veridicamos coincidencias la diagonales principal y las demas de derecha a izquierda en un rango de 0 a 2 (3 primeras filas) en las filas 
@@ -50,7 +50,7 @@ def isMutant(dna):
         for col in range(3):
             if dna[fil][col]==dna[fil+1][col+1]==dna[fil+2][col+2]==dna[fil+3][col+3]:
                 coincidencia = coincidencia+1
-    if coincidencia>2:
+    if coincidencia>1:
         return True
 
     #Recorremos y veridicamos coincidencias en las diagonales "inversa" y demas de izquierda a derecha en un rango de 0 a 2 (3 primeras filas) en las filas 
@@ -59,7 +59,7 @@ def isMutant(dna):
         for col in range(5,2,-1):
             if dna[fil][col]==dna[fil+1][col-1]==dna[fil+2][col-2]==dna[fil+3][col-3]:
                 coincidencia = coincidencia+1
-    if coincidencia>2:
+    if coincidencia>1:
         return True
     else:
         return False
