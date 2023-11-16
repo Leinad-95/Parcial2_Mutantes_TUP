@@ -103,7 +103,7 @@ Se propone el desarrollo de las siguientes instrucciones mediante el uso de un r
 # EJECUCION
 1. Para ejecutar el código en Visual Studio Code (VS Code), primero se debe instalar tanto VS Code como Python, asegurándote de agregar Python al PATH durante la instalación.
 2. Luego, abre VS Code y agrega la extensión de Python.
-3. Puedes acceder al codigo desde el siguiente [enlace](https://), descargarlo y ejecutarlo.
+3. Puedes acceder al codigo desde el siguiente [enlace](https://github.com/Leinad-95/Parcial2_Mutantes_TUP/blob/main/Mutantes.py), descargarlo y ejecutarlo.
 
 ## CASOS DE PRUEBA
 ### Ejemplo 1 MUTANTE
@@ -135,9 +135,9 @@ Se propone el desarrollo de las siguientes instrucciones mediante el uso de un r
     Secuencia 6 : tcactg
 
     ADN Ingresado:
-    A   T	G	C	G	A
-    C	A	G	T	G	C
-    T	T	A	T	T	T
+    A   T   G   C   G   A
+    C   A   G   T   G   C
+    T   T	A	T	T	T
     A	G	A	C	G	G
     G	C	G	T	C	A
     T	C	A	C	T	G
