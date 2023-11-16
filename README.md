@@ -50,16 +50,17 @@ Se propone el desarrollo de las siguientes instrucciones mediante el uso de un r
     isMutant(dna)
     ```
 **5. Para Finalizar de acuerdo al retorno de la funcion anterior el programa mostrara un mensaje indicando si se trata o no de un MUTANTE y tambien decidiremos si se quiere continuar con la consulta de otro ADN o no volviendo al Menu Principal** 
+
     ```
-    esMutante=isMutant(matrizADN)
-        print("\nRESULTADO: ")
-        if esMutante==True:
-            print(" MUTANTE")
+        esMutante=isMutant(matrizADN)
+            print("\nRESULTADO: ")
+            if esMutante==True:
+                print(" MUTANTE")
+            else:
+                print(" Humano normal")
         else:
-            print(" Humano normal")
-    else:
-        break
-    input("\nPulse cualquier tecla para continuar...")
+            break
+        input("\nPulse cualquier tecla para continuar...")
     ```
 # EJECUCION
 1. Puedes ejecutar el código en Visual Studio Code (VS Code), consola o cualquier IDE de tu preferencia.
