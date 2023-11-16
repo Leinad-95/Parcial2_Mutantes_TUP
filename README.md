@@ -8,7 +8,7 @@ Se necesita identificar por medio de una secuencia de ADN de 6x6 si un humano es
 - Cada secuencia contiene 6 Bases Nitrogenadas que pueden ser A, T, C o G.
 - Los casos mutantes son aquellos que presentan **MAS DE UNA SECUNCIA** de cuatro letras iguales, de forma oblicua, horizontal o vertical.
 
-## Como lo resolvimos
+## Como se resolvio
 Se propone el desarrollo de las siguientes instrucciones mediante el uso de un rústico Menu Principal
 
     ```
@@ -31,19 +31,19 @@ Se propone el desarrollo de las siguientes instrucciones mediante el uso de un r
         input("\nPulse cualquier tecla para continuar...")
     ```
 
-**1. Solicitamos el ingreso de la secuencia de ADN** y verificamos su tamaño (6 caracteres) y que los mismos correspondan a las Bases Nitrogenadas correspondientes
+**1. Se solicita el ingreso de la secuencia de ADN** y verificamos su tamaño (6 caracteres) y que los mismos correspondan a las Bases Nitrogenadas correspondientes
 
     ``` 
     cargaADN()
     ```
 
-**3. Mostramos por pantalla la matriz ingresada:**
+**3. Se muestra por pantalla la matriz ingresada:**
 
     ```
     MostrarADN(matriz)
     ```
 
-**4. Luego llamamos a la funcion isMutant() para clasificar el ADN ingresado esta funcion nos retornara un boleano V o F** 
+**4. Luego se llama a la funcion isMutant() para clasificar el ADN ingresado esta funcion nos retornara un boleano V o F** 
 
     ```
     #Metodo para comprobar si la secuencia de ADN ingresada pertenece o no a un mutante retorna T o F segun corresponda

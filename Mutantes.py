@@ -15,7 +15,7 @@ def cargaADN():
         dna.append(listaSec)
     return dna
 
-#Metodo para Mostramor matriz
+#Metodo para Mostrar matriz
 def mostrarMatriz(matriz):
     for fila in matriz:
         for elemento in fila:
@@ -44,7 +44,7 @@ def isMutant(dna):
     if coincidencia>1:
         return True
 
-    #Recorremos y veridicamos coincidencias la diagonales principal y las demas de derecha a izquierda en un rango de 0 a 2 (3 primeras filas) en las filas 
+    #Recorremos y verificamos coincidencias la diagonales principal y las demas de derecha a izquierda en un rango de 0 a 2 (3 primeras filas) en las filas 
     # y de 0 a 2 tambien en las columnas (3 primeras columnas por cada fila)
     for fil in range(3):
         for col in range(3):
@@ -53,7 +53,7 @@ def isMutant(dna):
     if coincidencia>1:
         return True
 
-    #Recorremos y veridicamos coincidencias en las diagonales "inversa" y demas de izquierda a derecha en un rango de 0 a 2 (3 primeras filas) en las filas 
+    #Recorremos y verificamos coincidencias en las diagonales "inversa" y demas de izquierda a derecha en un rango de 0 a 2 (3 primeras filas) en las filas 
     # y de 0 a 2 tambien en las columnas (3 primeras columnas por cada fila)
     for fil in range(3):
         for col in range(5,2,-1):
