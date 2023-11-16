@@ -101,8 +101,8 @@ Se propone el desarrollo de las siguientes instrucciones mediante el uso de un r
     input("\nPulse cualquier tecla para continuar...")
     ```
 # EJECUCION
-1. Para ejecutar el código en Visual Studio Code (VS Code), primero se debe instalar tanto VS Code como Python, asegurándote de agregar Python al PATH durante la instalación.
-2. Luego, abre VS Code y agrega la extensión de Python.
+1. Puedes ejecutar el código en Visual Studio Code (VS Code), consola o cualquier IDE de tu preferencia.
+2. Si utilizas VS Code agrega la extensión de Python para poder continuar.
 3. Puedes acceder al codigo desde el siguiente [enlace](https://github.com/Leinad-95/Parcial2_Mutantes_TUP/blob/main/Mutantes.py), descargarlo y ejecutarlo.
 
 ## CASOS DE PRUEBA
