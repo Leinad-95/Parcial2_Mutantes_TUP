@@ -44,6 +44,7 @@ Se propone el desarrollo de las siguientes instrucciones mediante el uso de un r
     ```
 
 **4. Luego llamamos a la funcion isMutant() para clasificar el ADN ingresado esta funcion nos retornara un boleano V o F** 
+
     ```
     #Metodo para comprobar si la secuencia de ADN ingresada pertenece o no a un mutante retorna T o F segun corresponda
     def isMutant(dna):
@@ -86,7 +87,7 @@ Se propone el desarrollo de las siguientes instrucciones mediante el uso de un r
             return True
         else:
             return False
-        ```
+    ```
 **5. Para Finalizar de acuerdo al retorno de la funcion anterior el programa mostrara un mensaje indicando si se trata o no de un MUTANTE y tambien decidiremos si se quiere continuar con la consulta de otro ADN o no volviendo al Menu Principal** 
     ```
     esMutante=isMutant(matrizADN)
